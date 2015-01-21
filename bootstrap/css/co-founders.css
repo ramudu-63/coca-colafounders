@@ -1,0 +1,638 @@
+@import url("//hello.myfonts.net/count/2c4371");
+
+  
+@font-face {font-family: 'CenturySchoolbookBT-Roman';src: url('/assets/fonts/2C4371_0_0.eot');src: url('/assets/fonts/2C4371_0_0.eot?#iefix') format('embedded-opentype'),url('/assets/fonts/2C4371_0_0.woff') format('woff'),url('/assets/fonts/2C4371_0_0.ttf') format('truetype');
+}
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+body {
+    padding-top: 60px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	line-height: 1.4;
+	    height: 100%;
+}
+body.co-founders {
+    padding-top: 40px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	line-height: 1.4;
+	    height: 100%;
+}
+/* Wrapper for page content to push down footer */
+.wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -72px;
+  /* Pad bottom by footer height */
+  padding: 0 0 72px;
+}
+a {
+	color: #E5171F;
+	text-decoration: none;
+}
+a:hover {
+	color: #E5171F;
+	text-decoration: underline;
+}
+h1, h2, h3, h4, h5 {
+/*	font-family: 'schoolbook-web', Georgia, Times, serif;
+*/	font-family: 'CenturySchoolbookBT-Roman', Georgia, Times, serif;
+	line-height: 1;
+	font-weight: normal;
+}
+h1 {
+	font-size: 110px;
+}
+h2 {
+	font-size: 50px; 
+	margin: 0 0 40px 0;
+}
+h3 {
+	font-size: 28px;
+	color: #F20000;
+	margin-top: 20px; /* was 50 */
+}
+h3.alt, .qa-block h3 {
+	font-family: 'CenturySchoolbookBT-Roman', Georgia, Times, serif;
+	font-size: 20px;
+	color: #F20000;
+	font-style: italic;
+	margin-bottom: 24px;
+}
+
+.founder-quote {
+	font-family: 'CenturySchoolbookBT-Roman', Georgia, Times, serif;
+	font-size: 28px;
+	color: #000;
+	font-style: italic;
+	margin-bottom: 28px;
+}
+h4 {
+	margin-top: 20px;
+	font-size: 18px;
+	font-style: italic;
+	margin-bottom: 5px;
+}
+h4.news-title {
+	margin-top: 0;
+	font-size: 18px;
+	font-style: normal;
+	margin-bottom: 15px;
+}
+p {
+	font-size: 16px;
+}
+p.lead {
+	font-family: 18px;
+}
+p.post-meta {
+	padding-bottom: 40px;
+	margin-bottom: 40px;
+	border-bottom: 1px solid #eee;
+}
+p.news-date {
+	padding: 15px 0 5px 0;
+	margin: 0;
+	color: #aaa;
+}
+p.video-caption {
+	padding: 0;
+	margin: 10px 0 15px 0;
+	color: #aaa;
+	text-align: center;
+	font-family: 'CenturySchoolbookBT-Roman', Georgia, Times, serif;
+	font-style: italic;
+}
+p.news-date span {
+	display: inline-block;
+	font-family: 'CenturySchoolbookBT-Roman', Georgia, Times, serif;
+	font-style: italic;
+	padding: 15px 0 5px 0;
+	margin: 0 0 0 15px;
+}
+p.back-link {
+	margin-bottom: 25px;
+}
+a.red-button {
+	font-family: 'CenturySchoolbookBT-Roman', Georgia, Times, serif;
+	font-style: italic;
+	display: inline-block;
+	color: #fff;
+	background: #E51A20;
+	padding: 10px 25px;
+}
+.hilite {
+	font-weight: bold;
+	color: #E5191F;
+}
+.city-script-wrapper {
+	position: relative;
+	height: 111px;
+}
+.city-script-wrapper img {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.founder-thumb {
+	margin: 0 0 16px 0;
+}
+.founder-name {
+	font-family: 'CenturySchoolbookBT-Roman', Georgia, Times, serif;
+	font-style: normal;
+}
+.founder-city {
+	color: #000;
+	font-family: 'CenturySchoolbookBT-Roman', Georgia, Times, serif;
+	font-style: italic;
+}
+.founder-name-row {
+	position: relative;
+/*	margin-bottom: -100px;*/
+	z-index: 10;
+}
+.founder-name-row h2 {
+	position: relative;
+	margin-top: 0;
+	margin-bottom: -26px;
+	z-index: 10;
+}
+.founder-meta {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.founder-meta h3 {
+	font-family: 'CenturySchoolbookBT-Roman', Georgia, Times, serif;
+	font-size: 24px;
+	color: #F20000;
+	font-style: italic;
+	margin-bottom: 5px;
+	margin-top: 30px;
+}
+.founder-meta h3.alt-sans {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	color: #000;
+	font-style: normal;
+	font-weight: normal;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.founder-meta h3.alt-sans a {
+	color: #E5171F;
+}
+.founder-caption {
+	text-align: center;
+	font-family: 'CenturySchoolbookBT-Roman', Georgia, Times, serif;
+	font-style: italic;
+	font-size: 22px;
+	margin-top: 14px;
+}
+.qa-block {
+	margin-top: 20px;
+}
+.navbar-brand img {
+	max-width:80%;
+}
+.navbar-default {
+	height: 80px;
+	background: #EFEFEF;
+	padding-top: 5px;
+}
+.btn-close {
+	float: right;
+	margin-top: -40px;
+}
+.home .btn-close {
+	display: none;
+}
+.btn-menu {
+	float: right;
+	margin-top: -45px;
+}
+/* sections */
+.intro {
+	margin-top: 84px;
+}
+.main {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.video {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.video-news {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.q-and-a {
+	margin-top:20px;
+	margin-bottom:20px;
+	padding-top: 4		0px;
+	padding-bottom: 30px;
+	background: #EFEFEF;
+}
+.q-and-a h2 {
+	font-size: 50px; 
+	margin: 0 0 10px 0;
+}
+.contact {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.contact-box {
+	background: transparent url(contact-bg.jpg) no-repeat center top;
+	background-size: contain;
+	text-align: center;
+	padding: 50px 25% 0 25%;
+	min-height: 320px;
+}
+.contact-box h2 {
+	font-size: 30px;
+}
+.contact-box p {
+	font-size: 16px;
+}
+.footer {
+	background: #E51A20;
+	padding: 20px 0;
+	text-align: center;
+	min-height: 60px;
+}
+.footer p {
+	color: #fff;
+}
+.footer a {
+	color: #fff;
+	text-decoration: underline;
+}
+.footer a:hover {
+	color: #ccc;
+}
+.founder-pair-wrapper {
+	padding-left: 0;
+	padding-right: 0;
+	margin-bottom: 20px;
+}
+.founder-pair {
+	margin: 10px 0;
+}
+/* helper classes */
+.text-center {
+	text-align: center;
+}
+.img-center {
+	margin-left: auto;
+	margin-right: auto;
+}
+.pad-top {
+	padding-top: 30px;
+}
+.pad-bottom {
+	padding-bottom: 30px;
+}
+.cover{
+	display: none;
+	position: fixed;
+	top: 0;
+	padding-top: 150px;
+	height: 2000px;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    background: #E5171F;
+    z-index: 25;
+    text-align: center;
+    overflow-y: scroll;
+}
+.cover h2 {
+	padding: 0 10%;
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+.cover a {
+	color: #fff;
+	text-decoration: none;
+}
+.cover a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+/* news ticker */
+.newstickerwrap  {
+    background: #efefef;
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    top: 80px;
+    padding: 0;
+    height: 25px;
+    border-top: 1px solid #fff;
+    z-index: 1000;
+    overflow: hidden;
+}
+.newstickerwrap .row {
+    padding-top: 0;
+    margin-left: 0;
+}
+
+/*.tickercontainer
+//width of the original container in which the ticker appears
+.tickercontainer .mask
+//can be used to achieve padding within the container
+*/
+
+.marquee {
+  overflow: hidden;
+  
+}
+
+.ticker-title {
+	position: absolute;
+    font-family: 'CenturySchoolbookBT-regular', Georgia, Times, serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 12px;
+    top: 0;
+    padding: 3px 19px 0 0;
+    /*width: 60px;*/
+    height: 25px;
+    /*display: inline-block;
+    float: left;*/
+    /*width: 59px;*/
+    /*padding-left: 25px;*/
+    z-index: 5000;
+    text-align: left;
+    margin: 0;
+    margin-left: -1010px;
+
+	padding-left: 1000px;
+	background: transparent url(news-arrow-bg.png) no-repeat right -1px;
+	
+}
+.ticker-title a {
+	text-decoration: underline;
+}
+.ticker-fade {
+    right: 0;
+    position: absolute;
+    font-family: 'CenturySchoolbookBT-regular', Georgia, Times, serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 12px;
+    top: 0;
+    padding: 3px 19px 0 0;
+    /*width: 60px;*/
+    height: 25px;
+    /*display: inline-block;
+    float: left;*/
+    /*width: 59px;*/
+    /*padding-left: 25px;*/
+    z-index: 5001;
+    text-align: left;
+    margin: 0;
+    margin-right: -950px;
+
+    padding-right: 1010px;
+    background: transparent url(newsfade.png) no-repeat left -1px;
+}
+
+
+#news-scroller {
+    list-style: none;
+    margin: 0;
+    padding: 2px 0 0 45px;
+    /*padding: 2px 0 0 0;*/
+    /*display: inline-block;*/
+    /*float: left;*/
+}
+#news-scroller li {
+
+	height: 20px;
+    list-style: none;
+    margin: 0 30px 0 0;
+    padding: 0;
+    display: block;
+    width: 1500px;
+}
+#news-scroller li a {
+    font-size: 12px;
+}
+@media (min-width: 768px) {
+    .newstickerwrap {
+        top: 124px;
+    }
+
+}
+@media (min-width: 480px) {
+    .news-title {
+        font-size: 15px;
+        margin-top: 0;
+    }
+
+}
+
+
+
+@media (min-height:350px) {
+	.cover h2 {
+		padding: 0 10%;
+		font-size: 25px;
+		margin-bottom: 18px;
+	}
+}
+@media (min-width:480px) and (min-height:601px) {
+	.cover{
+		padding-top: 170px;
+	}
+	.cover h2 {
+		font-size: 55px;
+	}
+}
+@media (min-width:768px) {
+
+	body {
+	    padding-top: 130px;
+		font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		line-height: 1.4;
+	}
+	.ticker-title {
+    	padding: 2px 27px 0 1000px;
+	   /* width: 56px;
+	    left: 0;
+	    margin-right: 10px;*/
+	}
+	.ticker-title a {
+    	padding-left: 6px;
+	   /* width: 56px;
+	    left: 0;
+	    margin-right: 10px;*/
+	}
+	#news-scroller {
+	    padding: 2px 0 0 45px;
+	}
+	#news-scroller li {
+	    padding: 0 0 0 15px;
+	}
+
+	body.co-founders {
+	    padding-top: 100px;
+	}
+	.navbar-brand img {
+		max-width: 100%;
+	}
+	h2 {
+		font-size: 80px;
+		margin: 0 0 40px 0;
+	}
+	.main h2 {
+		font-size: 65px;
+	}
+	.founder-name-row h2 {
+		font-size: 60px;
+		margin-bottom: -36px;
+	}
+	h3 {
+		font-size: 38px;
+		margin-top: 0;
+	}
+	h3.alt, .qa-block h3 {
+		font-family: 'CenturySchoolbookBT-Roman', Georgia, Times, serif;
+		font-size: 24px;
+		color: #F20000;
+		font-style: italic;
+		margin-bottom: 24px;
+	}
+	.q-and-a {
+		margin-top:40px;
+		margin-bottom:40px;
+		padding-top: 80px;
+		padding-bottom: 40px;
+		background: #EFEFEF;
+	}
+	.q-and-a h2 {
+		font-size: 80px; 
+		margin: 0 0 40px 0;
+	}
+	.qa-block {
+		margin-top: 40px;
+	}
+	.founder-meta h3 {
+		margin-bottom: 5px;
+		margin-top: 15px;
+	}
+	h4 {
+		margin-top: 20px;
+		font-size: 20px;
+		font-style: italic;
+	}
+	.navbar-default {
+		height: 124px;
+		background: #EFEFEF;
+		padding-top: 18px;
+	}
+	.btn-menu {
+		float: right;
+		margin-top: 12px;
+	}
+	.btn-close {
+		float: right;
+		margin-top: 12px;
+	}
+	.contact-box {
+		background: transparent url(contact-bg.jpg) no-repeat center top;
+		background-size: contain;
+		text-align: center;
+		padding: 70px 120px 0 120px;
+		min-height: 675px;
+	}
+	.contact-box h2 {
+		font-size: 50px;
+	}
+	.contact-box p {
+		font-size: 20px;
+	}
+	.cover{
+		padding-top: 200px;
+	}
+	.cover h2 {
+		font-size: 40px;
+	}
+	.pad-top {
+		padding-top: 40px;
+	}
+	.pad-bottom {
+		padding-bottom: 40px;
+	}
+	
+}
+@media (min-width:768px) and (min-height: 601px) {
+	.cover {
+		padding-top: 270px;
+	}
+	.cover h2 {
+		margin-bottom: 25px;
+		font-size: 60px;
+	}
+}
+@media (min-width:960px) {
+	
+	.contact-box {
+		background: transparent url(contact-bg.jpg) no-repeat center top;
+		background-size: contain;
+		text-align: center;
+		padding: 230px 120px 0 120px;
+		min-height: 675px;
+	}
+	.founder-name-row h2 {
+		font-size: 80px;
+		margin-bottom: -36px;
+	}
+	.contact-box h2 {
+		font-size: 70px;
+	}
+	.contact-box p {
+		font-size: 24px;
+	}
+	.cover {
+		padding-top: 200px;
+	}
+}
+@media (min-width:960px) and (min-height:800px) {
+
+	.cover {
+		padding-top: 250px;
+	}
+	.cover h2 {
+		font-size: 65px;
+	}
+}
+@media (min-width:1070px) {
+	.cover{
+		padding-top: 230px;
+	}
+	.cover h2 {
+		font-size: 45px;
+	}
+
+}
+@media (min-width:1070px) and (min-height:800px) {
+
+	.cover{
+		padding-top: 270px;
+	}
+	.cover h2 {
+		font-size: 75px;
+	}
+}
+
+
+
+   

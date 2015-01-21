@@ -1,0 +1,263 @@
+body {
+    padding-top: 60px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	line-height: 1.4;
+}
+h1, h2, h3, h4, h5 {
+	font-family: 'schoolbook-web', Georgia, Times, serif;
+	line-height: 1;
+	font-weight: normal;
+}
+h1 {
+	font-size: 110px;
+}
+h2 {
+	font-size: 50px;
+	margin: 0 0 40px 0;
+}
+h3 {
+	font-size: 28px;
+}
+h3.alt, .qa-block h3 {
+	font-family: 'schoolbook-web', Georgia, Times, serif;
+	font-size: 20px;
+	color: #F20000;
+	font-style: italic;
+	margin-bottom: 24px;
+}
+
+.founder-quote {
+	font-family: 'schoolbook-web', Georgia, Times, serif;
+	font-size: 28px;
+	color: #000;
+	font-style: italic;
+	margin-bottom: 28px;
+}
+h4 {
+	margin-top: 20px;
+	font-size: 18px;
+	font-style: italic;
+}
+p {
+	font-size: 16px;
+}
+p.lead {
+	font-family: 18px;
+}
+p.post-meta {
+	margin-bottom: 40px;
+}
+.hilite {
+	font-weight: bold;
+	color: #E5191F;
+}
+.city-script-wrapper {
+	position: relative;
+	height: 111px;
+}
+.city-script-wrapper img {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.founder-thumb {
+	margin: 0 0 16px 0;
+}
+.founder-name {
+	color: #000;
+	font-family: 'schoolbook-web', Georgia, Times, serif;
+	font-style: italic;
+}
+.founder-name-row {
+	position: relative;
+/*	margin-bottom: -100px;*/
+	z-index: 10;
+}
+.founder-name-row h2 {
+	position: relative;
+	margin-top: 0;
+	margin-bottom: -36px;
+	z-index: 10;
+}
+.founder-meta {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.founder-meta h3 {
+	font-family: 'schoolbook-web', Georgia, Times, serif;
+	font-size: 24px;
+	color: #F20000;
+	font-style: italic;
+	margin-bottom: 5px;
+}
+.founder-meta h3.alt-sans {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	color: #E5171F;
+	font-style: normal;
+	font-weight: normal;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.founder-caption {
+	text-align: center;
+	font-family: 'schoolbook-web', Georgia, Times, serif;
+	font-style: italic;
+	font-size: 22px;
+	margin-top: 14px;
+}
+.qa-block {
+	margin-top: 40px;
+}
+.navbar-brand img {
+	max-width: 50%;
+}
+.navbar-default {
+	height: 80px;
+	background: #EFEFEF;
+	padding-top: 5px;
+}
+.btn-close {
+	float: right;
+	margin-top: 40px;
+}
+.btn-menu {
+	float: right;
+	margin-top: -30px;
+}
+/* sections */
+.intro {
+	margin-top: 84px;
+}
+.video {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.q-and-a {
+	margin-top:40px;
+	margin-bottom:40px;
+	padding-top: 80px;
+	padding-bottom: 40px;
+	background: #EFEFEF;
+}
+.contact {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.contact-box {
+	background: transparent url(/assets/images/contact-bg.png) no-repeat center top;
+	background-size: contain;
+	text-align: center;
+	padding: 50px 25% 0 25%;
+	min-height: 320px;
+}
+.contact-box h2 {
+	font-size: 30px;
+}
+.contact-box p {
+	font-size: 16px;
+}
+.footer {
+	background: #E51A20;
+	padding: 20px 0;
+	text-align: center;
+	min-height: 60px;
+}
+.footer p {
+	color: #fff;
+}
+.founder-pair-wrapper {
+	padding-left: 0;
+	padding-right: 0;
+	margin-bottom: 20px;
+}
+.founder-pair {
+	margin: 10px 0;
+}
+/* helper classes */
+.text-center {
+	text-align: center;
+}
+.img-center {
+	margin-left: auto;
+	margin-right: auto;
+}
+.pad-top {
+	padding-top: 40px;
+}
+.pad-bottom {
+	padding-bottom: 40px;
+}
+
+
+@media (min-width:768px) {
+
+	body {
+	    padding-top: 185px;
+		font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		line-height: 1.4;
+	}
+	.navbar-brand img {
+		max-width: 100%;
+	}
+	h2 {
+		font-size: 80px;
+		margin: 0 0 40px 0;
+	}
+	h3 {
+		font-size: 38px;
+	}
+	h3.alt, .qa-block h3 {
+		font-family: 'schoolbook-web', Georgia, Times, serif;
+		font-size: 24px;
+		color: #F20000;
+		font-style: italic;
+		margin-bottom: 24px;
+	}
+	h4 {
+		margin-top: 20px;
+		font-size: 20px;
+		font-style: italic;
+	}
+	.navbar-default {
+		height: 175px;
+		background: #EFEFEF;
+		padding-top: 35px;
+	}
+	.btn-menu {
+		float: right;
+		margin-top: 40px;
+	}
+	.contact-box {
+		background: transparent url(/assets/images/contact-bg.png) no-repeat center top;
+		background-size: contain;
+		text-align: center;
+		padding: 70px 120px 0 120px;
+		min-height: 675px;
+	}
+	.contact-box h2 {
+		font-size: 50px;
+	}
+	.contact-box p {
+		font-size: 20px;
+	}
+	
+}
+@media (min-width:960px) {
+	.contact-box {
+		background: transparent url(/assets/images/contact-bg.png) no-repeat center top;
+		background-size: contain;
+		text-align: center;
+		padding: 230px 120px 0 120px;
+		min-height: 675px;
+	}
+	.contact-box h2 {
+		font-size: 80px;
+	}
+	.contact-box p {
+		font-size: 24px;
+	}
+}
